@@ -1,0 +1,6 @@
+int solve(vector<int>& nums) {
+    vector<int>::iterator ip;
+    ip = unique(nums.begin(), nums.end());
+    int c=distance(nums.begin(), ip);
+    return c;
+}
