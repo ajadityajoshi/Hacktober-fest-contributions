@@ -1,0 +1,19 @@
+int solve(Tree* root, int a, int b) {
+        if(!root) {
+                return 0;
+        }
+        if(root->val==a || root->val==b) {
+              return root->val;
+        } else {
+                int l=solve(root->left , a , b);
+                int r=solve(root->right , a, b);
+                if(l && r) {
+                        return root->val;
+                }
+                else if(l) {
+                        return l;
+                } else {
+                        return r;
+                }
+        }
+}
