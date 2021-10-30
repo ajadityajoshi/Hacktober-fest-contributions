@@ -12,7 +12,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/ajadityajoshi/Hacktober-fest-contributions">
-    <img src="images/algo.jpg" alt="Logo" width="500" height="400">
+    <img src="images/algo.jpg" alt="Logo" width="600" height="400">
   </a>
 
   <h3 align="center">DSA-</h3>
