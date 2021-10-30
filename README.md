@@ -36,7 +36,7 @@
 ## About The Project
 
 
-This is an effort to collect all our important Java algorithms important for Interview Preparation. This Repo is made with contribution of several students who are learning programming and preparing for job interviews.
+This is an effort to collect all our important Java, Python, C++ algorithms important for Jobs, exams , and Interview Preparation. This Repository is made by contribution of several students who are learning programming and preparing for job interviews.Please feel free to open and issue and also contribute to the repository.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
