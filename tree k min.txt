@@ -1,0 +1,17 @@
+void traverse(Tree* node, vector<int>& tree_arr) {    if(node) {
+        tree_arr.push_back(node->val);
+        traverse(node->left, tree_arr);
+        traverse(node->right, tree_arr);
+    } else {
+        return;
+    }
+}
+
+int solve(Tree* root, int k) {
+    vector<int> tree_arr;
+    traverse(root, tree_arr);
+
+sort(tree_arr.begin(), tree_arr.end());
+
+return tree_arr[k];
+}
