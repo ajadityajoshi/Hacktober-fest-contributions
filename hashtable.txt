@@ -1,0 +1,12 @@
+public class MyClass {
+    public static void main(String args[]) {
+      int[] arr=new int[20];
+      arr[0] = 2;
+      arr[1] = 2;
+      int x=2;
+      arr[0]= 3;
+      System.out.println(System.identityHashCode(arr[1]));
+      System.out.println(System.identityHashCode(x));
+      System.out.println(System.identityHashCode(arr[0]));
+    }
+}
